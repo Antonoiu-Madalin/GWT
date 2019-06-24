@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import TemplateWrap from '../templates/TemplateWrap'
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -52,6 +52,7 @@ class Layout extends React.Component {
       )
     }
     return (
+      <TemplateWrap>
       <div
         style={{
           marginLeft: `auto`,
@@ -68,6 +69,7 @@ class Layout extends React.Component {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
+      </TemplateWrap>
     )
   }
 }
