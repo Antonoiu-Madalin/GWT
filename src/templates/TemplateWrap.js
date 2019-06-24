@@ -166,7 +166,7 @@ export default function ResponsiveDrawer(props) {
             </Link>
             
             {/* Despre */}
-            <Link to="/despre" className="listItemClear">
+            <Link to="/" className="listItemClear">
               <ListItem button component="div">
                 <ListItemIcon> <InfoIcon/></ListItemIcon>
                 <ListItemText primary="Despre" />
@@ -174,7 +174,7 @@ export default function ResponsiveDrawer(props) {
             </Link>
 
             {/* Contact */}
-            <Link to="/contact" className="listItemClear">
+            <Link to="/" className="listItemClear">
               <ListItem button component="div">
                 <ListItemIcon> <MailIcon /> </ListItemIcon>
                 <ListItemText primary="Contact" />
@@ -182,7 +182,7 @@ export default function ResponsiveDrawer(props) {
             </Link>
 
             {/* Newsletter */}
-            <Link to="/newsletter" className="listItemClear">
+            <Link to="/" className="listItemClear">
               <ListItem button component="div">
                 <ListItemIcon> <RssFeed /> </ListItemIcon>
                 <ListItemText primary="Newsletter" />
