@@ -10,6 +10,7 @@ class Layout extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
+      
       header = (
         <h1
           style={{
@@ -52,7 +53,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <TemplateWrap>
+     
       <div
         style={{
           marginLeft: `auto`,
@@ -61,10 +62,12 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+      <TemplateWrap>
         <header>{header}</header>
         <main>{children}</main>
-      </div>
       </TemplateWrap>
+      </div>
+      
     )
   }
 }
